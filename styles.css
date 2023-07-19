@@ -128,10 +128,38 @@ h4{
 span{
   color: rgba(249, 31, 238,.7);
 }
-.card{
-width: 80%;
+#card{
+width: 90%;
 }
+.section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  max-width: 1500px;
+}
+h5{
+  font-size: 2.5rem;
+}
+#span{
+      color: hotpink;
+}
+.man{
+  width: 60%;
+  padding-left:6rem ;
+  
+}
+.doll{
+  width: 30%;
+  position: relative;
+  bottom: 12rem;
 
+  
+}
+.main{
+      padding-left: 15rem;
+      text-align: end;
+      padding-top: 9rem;      
+}
 
 
  @media  screen and (max-width:576px) {
@@ -146,23 +174,32 @@ width: 80%;
  .head-nav{
    flex-direction: column-reverse;
    margin-top:6rem ;
-   max-width: 900px;
+   max-width: 800px;
+   background-color: white;
+ }
+ .main-section{
+  max-width:800px;
+ }
+ .section{
+  max-width:800px;
  }
  .img{
    width: 80%;
-   padding-left: 2.5rem;
+   padding-left: 1rem;
+ 
  }
- .list{
-   gap: 1rem;
- }
+  .list{
+     gap: 1rem;
+   padding-right: 1.5rem;
+  }
  .navication{
    font-size: 1rem;
    
  }
  .header{
    height: 7rem;
-   padding-left: 5rem;
-   width:20rem ;
+   padding-left: 8rem;
+   width:30rem ;
    padding-bottom: 15rem;
  }
  
@@ -184,7 +221,37 @@ width: 80%;
  }
  .images{
   flex-direction: column;
-  padding-right: 8px ;
+  padding-right:0rem ;
+  padding-left: 4rem;
+ }
+ .section{
+  flex-direction: column;
+  margin-top: 0rem;
+  padding-left:50px ;
+  padding-right: 0px;
+ }
+ h5{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+ }
+ .man{
+  width: 50%;
+  margin-top: 1rem;
+ }
+ .doll{
+  width: 25%;
+  bottom: 8rem;
+  padding-left:35px ;
+  padding-right: opx;
+ }
+ .main{
+  padding-right: 8rem;
+  padding-left: 0rem;
+  text-align: center;
+ }
+ h3{
+  font-size: 2rem;
+  padding-right:2.5rem ;
  }
  }
  @media screen and (min-width:576px) and (max-width:1300px) {
@@ -192,26 +259,77 @@ width: 80%;
       padding-top: 2rem;
    }
    .header{
-      padding-bottom: 10rem;
+      padding-bottom:0rem;
+      padding-top:4rem ;
       padding-left: 5rem;
       height: 25rem;
-      width:22rem ;
+      width:28rem ;
    }
+   .nav{
+     flex-direction: column;
+   }
+   .list,.navication{
+    flex-direction: column;
+    margin-top: 1rem;
+    padding-left: 0rem;
+    padding-right: 11rem;
+   }
+  .navbar{
+    padding-left: 0rem;
+    padding-right: 12rem;
+    margin-top: 5rem;
+  }
    .head-nav{
-      max-width: 1000px;
+      max-width: 900px;
+      margin-top: 4rem;
    }
    .navication{
     justify-content: center;
     padding-left:.25rem;
+
+   }
+   button{
+    margin-top: 1rem;
     
    }
+   .section{
+    flex-direction: column;
+    max-width: 900px;
+    padding-left:13rem;
+   }
+   .doll{
+    width: 20%;
+   }
+   .man{
+    width: 40%;
+   }
+
+   .play{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   }
+h5{
+  font-size: 2rem;
+}
+.main{
+  padding-left:0rem;
+  padding-right:28rem;
+  text-align: center;
+}
+
    .nav{
     gap: 1rem;
     margin-right: 1rem;
    }
    .images{
     flex-direction: column;
-    padding-left: 22rem;
+    padding-left: 15rem;
     padding-right: 10rem;
    }
+   .main-section{
+    max-width: 850px;
+    padding-left:0rem;
+    padding-right:15rem;
+   }
+
  }
