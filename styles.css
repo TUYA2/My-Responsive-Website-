@@ -45,8 +45,8 @@ ul,a{
 }
 button{
     height: 2.5rem;
-    padding:10px 5px;
-    border-radius: 5px;
+    padding:.625rem .3125rem;
+    border-radius: .3125rem;
     border:none;
     background-color: rgb(209, 202, 202);
     width:12rem;
@@ -67,7 +67,7 @@ button{
    background-color:rgba(250, 249, 249, 0.801);
    display: flex;
    justify-content: space-between;
-   max-width:1500px ;
+   max-width:94rem ;
    
  }
  h2{
@@ -135,7 +135,7 @@ width: 90%;
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
-  max-width: 1500px;
+  max-width: 94rem;
 }
 h5{
   font-size: 2.5rem;
@@ -160,7 +160,9 @@ h5{
       text-align: end;
       padding-top: 9rem;      
 }
-
+footer{
+  background-color:;
+}
 
  @media  screen and (max-width:576px) {
  .navication{
@@ -169,19 +171,19 @@ h5{
  
  .navication,.list,.nav{
    flex-direction: column;
-   gap: 5px;
+   gap: .3125rem;
  }
  .head-nav{
    flex-direction: column-reverse;
    margin-top:6rem ;
-   max-width: 800px;
+   max-width: 50rem;
    background-color: white;
  }
  .main-section{
-  max-width:800px;
+  max-width:50rem;
  }
  .section{
-  max-width:800px;
+  max-width:50rem;
  }
  .img{
    width: 80%;
@@ -210,14 +212,14 @@ h5{
 
  }
  .title{
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: .3125rem;
+  padding-right: .3125rem;
  }
  h4{
   font-size: 1.5rem;
  }
  .paragraph{
-  font-size: 12px;
+  font-size: .75rem;
  }
  .images{
   flex-direction: column;
@@ -227,8 +229,8 @@ h5{
  .section{
   flex-direction: column;
   margin-top: 0rem;
-  padding-left:50px ;
-  padding-right: 0px;
+  padding-left:3.125rem;
+  padding-right:0rem;
  }
  h5{
   font-size: 1.5rem;
@@ -241,8 +243,8 @@ h5{
  .doll{
   width: 25%;
   bottom: 8rem;
-  padding-left:35px ;
-  padding-right: opx;
+  padding-left:2.1875rem ;
+  padding-right: 0rem;
  }
  .main{
   padding-right: 8rem;
@@ -280,7 +282,7 @@ h5{
     margin-top: 5rem;
   }
    .head-nav{
-      max-width: 900px;
+      max-width: 56.25rem;
       margin-top: 4rem;
    }
    .navication{
@@ -294,7 +296,7 @@ h5{
    }
    .section{
     flex-direction: column;
-    max-width: 900px;
+    max-width:56.25rem;
     padding-left:13rem;
    }
    .doll{
@@ -327,7 +329,7 @@ h5{
     padding-right: 10rem;
    }
    .main-section{
-    max-width: 850px;
+    max-width: 53.125rem;
     padding-left:0rem;
     padding-right:15rem;
    }
