@@ -1,7 +1,7 @@
 *{
   font-family: 'Work Sans', sans-serif;
   margin: 0rem;
-  max-width:860rem ;
+  
 }
 .navication{
     height: 5rem;
@@ -67,6 +67,7 @@ button{
    background-color:rgba(250, 249, 249, 0.801);
    display: flex;
    justify-content: space-between;
+   max-width:1000px ;
    
  }
  h2{
@@ -126,7 +127,7 @@ button{
  .head-nav{
    flex-direction: column-reverse;
    margin-top:6rem ;
-   width:25rem ;
+   max-width: 900px;
  }
  .img{
    width: 80%;
@@ -153,17 +154,26 @@ button{
 
  }
  }
- @media screen and (min-width:576px) and (max-width:1200px) {
+ @media screen and (min-width:576px) and (max-width:1300px) {
    h2{
       padding-top: 2rem;
    }
    .header{
       padding-bottom: 10rem;
       padding-left: 5rem;
-      height: 20rem;
+      height: 25rem;
       width:22rem ;
    }
    .head-nav{
-      width:60rem ;
+      max-width: 1000px;
+   }
+   .navication{
+    justify-content: center;
+    padding-left:.25rem;
+    
+   }
+   .nav{
+    gap: 1rem;
+    margin-right: 1rem;
    }
  }
