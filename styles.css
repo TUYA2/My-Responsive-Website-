@@ -3,7 +3,7 @@
   margin: 0rem;
   
 }
-.navication{
+.navigation{
     height: 5rem;
     padding: 0rem 7.5rem;
     background-color:white;
@@ -206,12 +206,40 @@ footer{
   padding:0rem 12rem 6rem 34rem;
 }
 
+.buttons{
+  background-color:lavenderblush;
+  margin-bottom: 5rem;
+  max-width:94rem;
+  padding-top: 16rem;
+  height:30rem;
+ text-align: center;
+}
+
+.one{
+     height:4rem;
+     background-color:rgb(251, 246, 246);
+     width:max-content;
+     border-radius:3rem;
+     display: inline;
+     margin-right: 1.5rem;
+     
+}
+.one:hover{
+  color: rgb(225, 45, 135);
+  border:1px solid rgb(238, 15, 127);
+}
+.div{
+  margin-top: 2rem;
+}
+.one img{
+  width:18%;
+}
  @media  screen and (max-width:576px) {
- .navication{
+ .navigation{
    padding:.5rem 0rem 0rem 1.5rem;
  }
  
- .navication,.list,.nav{
+ .navigation,.list,.nav{
    flex-direction: column;
    gap: .3125rem;
  }
@@ -236,7 +264,7 @@ footer{
      gap: 1rem;
    padding-right: 1.5rem;
   }
- .navication{
+ .navigation{
    font-size: 1rem;
    
  }
@@ -352,7 +380,7 @@ footer{
    .nav{
      flex-direction: column;
    }
-   .list,.navication{
+   .list,.navigation{
     flex-direction: column;
     margin-top: 1rem;
     padding-left: 0rem;
@@ -367,7 +395,7 @@ footer{
       max-width: 56.25rem;
       margin-top: 4rem;
    }
-   .navication{
+   .navigation{
     justify-content: center;
     padding-left:.25rem;
 
