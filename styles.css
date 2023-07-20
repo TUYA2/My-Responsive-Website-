@@ -16,6 +16,7 @@
         
         
 }
+
 h3{
     font-size:2.8rem ;
 }
@@ -127,10 +128,21 @@ h4{
 }
 span{
   color: rgba(249, 31, 238,.7);
+
 }
 #card{
-width: 90%;
+width:90%;
+
+
 }
+
+#card:hover{
+  border:3px solid rgb(235, 9, 122) ;
+  background-color: overlay;
+  background-color: rgba(42, 40, 40, 0.518);
+}
+
+
 .section{
   display: flex;
   justify-content: space-between;
@@ -175,19 +187,30 @@ footer{
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding:6rem 12rem 0rem 37rem;
+  padding:6rem 10rem 0rem 36rem;
 }
-#first,#second,#third{
+#first,#third{
   display: flex;
   align-items: center;
-  
+}  
+.second{
+
+padding-left: 30rem;
+padding-right: 0rem;
 }
-#second{
+.seconds{
   color: white;
   font-size: 2rem;
-  padding: 0rem 12rem 0rem 36rem;
+  padding: 0rem 1rem 0rem .7rem;
+  border-radius:3rem;
   gap: 6.5rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(11, 2, 60);
+  margin-left: 5rem;
+
 }
+
 #first{
   padding: 0rem 12rem 0rem 27rem;
   gap: 1.5rem;
@@ -208,7 +231,7 @@ footer{
 
 .buttons{
   background-color:lavenderblush;
-  margin-bottom: 5rem;
+  margin-bottom: rem;
   max-width:94rem;
   padding-top: 16rem;
   height:30rem;
@@ -222,7 +245,8 @@ footer{
      border-radius:3rem;
      display: inline;
      margin-right: 1.5rem;
-     
+     font-size: 1rem;
+     font-weight: bold;
 }
 .one:hover{
   color: rgb(225, 45, 135);
@@ -232,121 +256,202 @@ footer{
   margin-top: 2rem;
 }
 .one img{
-  width:18%;
+  width:22%;
 }
  @media  screen and (max-width:576px) {
  .navigation{
-   padding:.5rem 0rem 0rem 1.5rem;
+   padding:2rem 5rem 0rem 0rem;
  }
- 
+ .navbar{
+    margin-left: 45rem;
+}
  .navigation,.list,.nav{
    flex-direction: column;
    gap: .3125rem;
  }
+ .sidebar{
+  margin-left: 5rem;
+ }
  .head-nav{
    flex-direction: column-reverse;
-   margin-top:6rem ;
-   max-width: 50rem;
+   margin-top:3rem ;
+   max-width: 58rem;
    background-color: white;
+   justify-content: center;
+   margin-left: 18rem;
  }
  .main-section{
   max-width:50rem;
  }
+ 
  .section{
-  max-width:50rem;
+  max-width:58rem;
+  flex-direction: column;
  }
  .img{
-   width: 80%;
-   padding-left: 1rem;
- 
+   width: 200%;
+   padding-left: 5rem;
+   padding-top: 5rem;
+  }
+ .i{
+  margin-left:3rem ;
  }
   .list{
      gap: 1rem;
-   padding-right: 1.5rem;
+     margin-left:40rem;
+  }
+  .main{
+    padding: 1rem 5rem 0rem 5rem;
+    text-align: center;
+    margin: 0 8rem 0 0 ;
+    height: 20rem;
+    width: 40rem;
+  }
+  .nav{
+    margin-left: 2rem;
   }
  .navigation{
    font-size: 1rem;
-   
- }
+   }
  .header{
    height: 7rem;
-   padding-left: 8rem;
-   width:30rem ;
-   padding-bottom: 15rem;
+  max-width:50rem ;
+  height: 20rem;
+  font-size:1rem;
+   padding-bottom: 5rem;
+  
+   
  }
- 
+ h4{
+  font-size: 1.5rem;
+ }
+ .man{
+  width: 100%;
+  padding: 0rem 0rem 0rem 10rem;
+  height: rem;
+ }
+ .doll{
+  width: 60%;
+  height: rem;
+  bottom: 15rem;
+  padding: 0 0 0 8rem;
+ }
  h1{
    font-size: 3rem;
  }
  h2{padding-top: 2rem;
 
  }
- .title{
-  padding-left: .3125rem;
-  padding-right: .3125rem;
- }
+ 
  h4{
-  font-size: 1.5rem;
+  font-size: 2rem;
  }
  .paragraph{
-  font-size: .75rem;
+  font-size: 1rem;
  }
  .images{
   flex-direction: column;
-  padding-right:0rem ;
-  padding-left: 4rem;
+  max-width: 54rem;
+  margin-left:0rem;
+  margin-right:15rem;
+  width: 150%;
+  padding-right: 10rem;
+
  }
- .section{
-  flex-direction: column;
-  margin-top: 0rem;
-  padding-left:3.125rem;
-  padding-right:0rem;
- }
+#card{
+  width: 100%;
+}
+.card p{
+  font-size: 2rem;
+  
+}
+ 
  h5{
   font-size: 1.5rem;
   margin-bottom: 1rem;
  }
- .man{
-  width: 50%;
-  margin-top: 1rem;
- }
- .doll{
-  width: 25%;
-  bottom: 8rem;
-  padding-left:2.1875rem ;
-  padding-right: 0rem;
- }
- .main{
-  padding-right: 8rem;
-  padding-left: 0rem;
-  text-align: center;
- }
+ 
+ 
+ 
  h3{
   font-size: 2rem;
   padding-right:2.5rem ;
  }
  footer{
-  width: 55.5rem;
+  width: 57rem;
  }
  #navbar{
-  padding-left: 22rem;
-  padding-right: 0rem;
- }
+  margin-left: 0rem;
+  margin-right:30rem;
+  gap:1rem;
+}
+.title{
+  height:2rem;
+  width: 54rem;
+  /* border: 2px solid red; */
+  
+}
+
  #first{
-  padding-left: 10.5rem;
-  padding-right:0rem;
+  padding-left:0rem;
+  padding-right:7rem;
+  margin: 0;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3,100px );
  }
- #second{
-  padding-left: 19rem;
-  padding-right: 0rem;
+ .first{
+  margin-left:3rem;
+  margin-right:13rem;
+ }
+ .second{
+  display: flex;
+  padding-right:0rem ;
+  padding-left: 23rem;
+ }
+ .seconds{
+  padding-right: .5rem;
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+  margin-right:6rem ;
  }
  #third{
-  padding-left: 13rem;
-  padding-right: 0rem;
+  display: grid;
+  grid-template-columns: repeat(2,200px);
+  font-size: 1rem;
+ }
+ .third{
+  margin-left:1rem;
+  justify-content: space-around;
+  padding-right: 15rem;
  }
  .footer{
-        padding-left:17rem ;
-        padding-right: 0rem;
+  margin-left: 0rem;
+  margin-right:6rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+  padding-left:5rem;
+  padding-right: 11rem;
+ }
+.buttons{
+  flex-wrap: wrap;
+  width: 57rem;
+  height: max-content;
+  padding-top: 10rem;
+} 
+.class{
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+}
+.div{
+  padding-bottom: 6rem;
+}
+.main-section{
+  margin-right: 4rem;
+}
+ .title{
+  text-align: center;
  }
  }
  @media screen and (min-width:576px) and (max-width:1300px) {
@@ -354,14 +459,15 @@ footer{
       padding-top: 2rem;
    }
    #navbar{
-    padding-left:24rem ;
+    padding-left:26rem ;
     
    }
    #first{
     padding-left:15rem;
    }
-   #second{
-    padding-left:20rem ;
+   
+   .second{
+    padding-left: 17rem;
    }
    #third{
     padding-left:17rem ;
@@ -392,8 +498,8 @@ footer{
     margin-top: 5rem;
   }
    .head-nav{
-      max-width: 56.25rem;
-      margin-top: 4rem;
+      max-width: 60rem;
+      margin-top: 6rem;
    }
    .navigation{
     justify-content: center;
