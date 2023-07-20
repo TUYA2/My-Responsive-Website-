@@ -156,12 +156,54 @@ h5{
   
 }
 .main{
-      padding-left: 15rem;
+      padding-left: 25rem;
       text-align: end;
       padding-top: 9rem;      
 }
 footer{
-  background-color:;
+  max-width: 94rem;
+  background-color:rgb(11, 2, 60);
+  
+}
+.h3{
+  color: white;
+}
+.first,.second,.third{
+  margin-top: 3rem;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding:6rem 12rem 0rem 37rem;
+}
+#first,#second,#third{
+  display: flex;
+  align-items: center;
+  
+}
+#second{
+  color: white;
+  font-size: 2rem;
+  padding: 0rem 12rem 0rem 36rem;
+  gap: 6.5rem;
+}
+#first{
+  padding: 0rem 12rem 0rem 27rem;
+  gap: 1.5rem;
+  color: white;
+}
+#third,.footer{
+  color:darkgray;
+  margin-top: 1rem;
+  font-size: .8rem;
+}
+#third{
+  padding: 0rem 12rem 0rem 29.5rem;
+  gap: 1.5rem;
+}
+.footer{
+  padding:0rem 12rem 6rem 34rem;
 }
 
  @media  screen and (max-width:576px) {
@@ -255,10 +297,50 @@ footer{
   font-size: 2rem;
   padding-right:2.5rem ;
  }
+ footer{
+  width: 55.5rem;
+ }
+ #navbar{
+  padding-left: 22rem;
+  padding-right: 0rem;
+ }
+ #first{
+  padding-left: 10.5rem;
+  padding-right:0rem;
+ }
+ #second{
+  padding-left: 19rem;
+  padding-right: 0rem;
+ }
+ #third{
+  padding-left: 13rem;
+  padding-right: 0rem;
+ }
+ .footer{
+        padding-left:17rem ;
+        padding-right: 0rem;
+ }
  }
  @media screen and (min-width:576px) and (max-width:1300px) {
    h2{
       padding-top: 2rem;
+   }
+   #navbar{
+    padding-left:24rem ;
+    
+   }
+   #first{
+    padding-left:15rem;
+   }
+   #second{
+    padding-left:20rem ;
+   }
+   #third{
+    padding-left:17rem ;
+   }
+   .footer{
+    padding-bottom: 16rem;
+    padding-left:21rem;
    }
    .header{
       padding-bottom:0rem;
